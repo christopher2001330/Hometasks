@@ -25,7 +25,7 @@ def calculate_structure_sum(structure):
             total_sum += calculate_structure_sum(value) # вытаскиваем значения, считаем их выше
             total_sum += calculate_structure_sum(key) # вытаскиваем значения, считаем их выше
 
-    
+
     return total_sum
 
 result = calculate_structure_sum(data_structure)
